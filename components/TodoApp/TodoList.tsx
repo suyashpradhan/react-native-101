@@ -67,7 +67,4 @@ export const styles = StyleSheet.create({
     todoDeleteButtonText: {
         color: "black",
     },
-    todoText: {
-        color: "#FFF",
-    },
 })
