@@ -1,5 +1,5 @@
 import React from 'react';
-import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
 import {ProductType} from "./EcommStore";
 
 export const ProductCard = ({item}: { item: ProductType }) => {
@@ -9,9 +9,9 @@ export const ProductCard = ({item}: { item: ProductType }) => {
             <View style={styles.cardContent}>
                 <Text style={styles.productTitle}>{item.title}</Text>
                 <Text style={styles.productPrice}>${item.price.toFixed(2)}</Text>
-                <Pressable style={styles.cartButton}>
+                <TouchableOpacity style={styles.cartButton}>
                     <Text style={styles.cartButtonText}>Add to Cart</Text>
-                </Pressable>
+                </TouchableOpacity>
             </View>
         </View>
     );

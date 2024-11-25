@@ -46,17 +46,15 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff',
         height: '100%',
         width: '100%',
-        marginTop: 5,
         paddingHorizontal: 20,
     },
     productContainer: {
         display: "flex",
         justifyContent: "space-between",
         flexDirection: "column",
-        marginTop: 8
     },
     productContainerText: {
-        marginTop: 22,
+        marginTop: 12,
         fontWeight: "bold",
         fontSize: 18,
     },
